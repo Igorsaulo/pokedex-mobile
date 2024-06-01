@@ -5,6 +5,7 @@ import { Card } from "@/app/shared/components/molecule/home/card";
 import { FlatList } from "react-native";
 import { Pokemon } from "@/app/shared/components/molecule/home/card";
 
+
 export function Home() {
     const [pokemons, setPokemons] = useState<Pokemon[]>([]);
     useEffect (() => {
@@ -29,7 +30,7 @@ export function Home() {
                 data={pokemons}
                 keyExtractor={(item) => String(item.id)}
                 renderItem={({ item }) => (
-                    <Card data={item} />
+                        <Card data={item} />
                 )}
             />
     </S.Container>
