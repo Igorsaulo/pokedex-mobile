@@ -2,7 +2,7 @@ import React from "react";
 import * as S from "./styles";
 import AnimatedLottieView from "lottie-react-native";
 import pokeballAnimated from "./pokeball.json";
-import { ClickButton } from "@/shared/components/atomic/buttons/clickButton";
+import { ClickButton } from "@/app/shared/components/atomic/buttons/clickButton";
 
 export function Welcome() {
     return (
