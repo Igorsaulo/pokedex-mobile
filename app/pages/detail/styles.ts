@@ -14,11 +14,9 @@ export const Container = styled.ScrollView<ViewProps>`
 `;
 
 export const BackButton = styled.TouchableOpacity`
-    ${({ theme }) => css`
     position: absolute;
     top: 20px;
     left: 20px;
-    `};
 `;
 
 export const Header = styled.View<ViewProps>`
@@ -110,8 +108,8 @@ export const PokemonTypeText = styled.Text`
 `;
 
 export const PatternImage = styled.Image`
-width: 100px;
-height: 100px;
+    width: 100px;
+    height: 100px;
     position: absolute;
     bottom: 30px;
     right: -40px;
