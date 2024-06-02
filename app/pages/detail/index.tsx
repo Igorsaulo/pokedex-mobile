@@ -16,7 +16,6 @@ export function Detail() {
   const [pokemon, setPokemon] = useState<any>({} as any);
   const { goBack } = useNavigation();
   const { pokeId } = route.params as RouteParams;
-  console.log(pokeId);
 
   useEffect(() => {
     async function fetchPokemon() {
